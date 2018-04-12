@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Java"
-excerpt: "Short description of my early projects in Java"
+excerpt: "My earliest projects in coding simple algorithms to solve quirky questions."
 collection: publications
 ---
 
@@ -9,6 +9,7 @@ collection: publications
 ## How to get into coding? 
 
 I started my adventure by coding simple algorithms to solve a bunch of fun and quirky questions! 
+These were the very first codes I did, ever. 
 
 The project includes solving questions via programming: 
 
