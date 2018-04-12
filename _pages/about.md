@@ -1,16 +1,22 @@
 ---
 permalink: /
-title: "An Introduction into a Analytically Driven Biochemist"
-excerpt: "About me"
+title: "Hello/Salut!"
+excerpt: "things to know about me."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+All you need to know about me: 
 
-I invite you to explore my [projects](https://kmualim.github.io/publications)!
+I'm an aspiring computational neuroscientist, changing the world one taste bud at a time! 
 
-Check out my projects and [cv](https://kmualim.github.io/cv). 
+My interests lie in deciphering the connectome and the other intricacies in the world, 
+perhaps one day solving many of the world's societal problems like social injustice. 
+
+But until then, I invite you to explore learn about [tastes](https://kmualim.github.io/teaching) & my other [projects](https://kmualim.github.io/publications)! 
+
+Check out my [cv](https://kmualim.github.io/cv), my bio (below) and play some [games](https://kmualim.github.io/publications/2018-04-12-games/).  
 
 
 # About Me 
