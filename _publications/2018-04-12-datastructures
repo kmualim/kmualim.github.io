@@ -1,3 +1,9 @@
+---
+title: "My Projects"
+excerpt: "Getting into Datastructures in Java"
+collection: publications
+---
+
 # My Projects
 
 Later, I took to implementing the various data structures present in Java to implement classification systems as well as an API Connect 4 game. 
@@ -19,12 +25,5 @@ The idea was to be able to use Binary Search Trees in figuring out how to classi
 Alternatively, through the implementation of tree structures, a separate project shows its implementation in categorizing objects. I took this to categorize various buildings based on their year of construction, height, year of repair and cost of repair. All these attributes help in figuring out specific values relative to the action one wishes to take. 
 [Code](https://github.com/kmualim/buildingclassification).
 
-# Connect4 
-
-## Building games! 
-
-I loved playing Connect 4 as a child and wanted to build a API version of Connect 4. This way, anyone could play on the go! 
-The rules of the game are as listed [here](https://en.wikipedia.org/wiki/Connect_Four). 
-[Code]
 
 
