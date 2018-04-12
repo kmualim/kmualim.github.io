@@ -7,7 +7,7 @@ collection: publications
 # My Projects
 
 Later, I took to implementing the various data structures present in Java to implement classification systems as well as an API Connect 4 game. 
-My projects utilize various data structures to create and implement classification systems in a given Warehouse (#Sorting Warehouses) and sorts buildings based on a specific characteristic about these buildings (#Building Classification) , such as Year Of Construction. Lastly, I've implemented a game of Connect 4 that allows you to play with a very simple AI system (#Connect 4). 
+My projects utilize various data structures to create and implement classification systems in a given Warehouse (#Sorting Warehouses) and sorts buildings based on a specific characteristic about these buildings (#Building Classification) , such as Year Of Construction. 
 
 # Sorting Warehouses 
 
