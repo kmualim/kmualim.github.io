@@ -2,6 +2,7 @@
 title: "My Projects"
 excerpt: "Getting into Datastructures in Java"
 collection: publications
+---
 
 # My Projects
 
