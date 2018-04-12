@@ -10,7 +10,9 @@ redirect_from:
 
 # Hello!
 
-I invite you to explore my [projects]! 
+I invite you to explore my [projects]!
+
+Check out my future ventures and cv. 
 
 
 # About Me 
