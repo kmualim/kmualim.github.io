@@ -2,7 +2,7 @@
 title: "Introduction to Java"
 excerpt: "Short description of my early projects in Java"
 collection: publications
-
+---
 
 # Early Projects 
 
