@@ -1,0 +1,29 @@
+---
+title: "Exploring data structures"
+collection: publications
+permalink: /publication/2018-04-12-datastructures
+excerpt: 'This repository explores the different utilizations of data structures relative to classification systems"
+date: 2018-04-12
+venue: 'Journal 1'
+---
+
+# My Projects
+
+My projects utilize various data structures to create and implement classification systems in a given Warehouse (#Sorting Warehouses) and sorts buildings based on a specific characteristic about these buildings (#Building Classification) , such as Year Of Construction. Lastly, I've implemented a game of Connect 4 that allows you to play with a very simple AI system (#Connect 4). 
+
+# Sorting Warehouses 
+
+I've used the implementation of linked lists to create a sorting and classification system that would categorize boxes based on their height, shelf space and urgency, seen in this 
+[Code](https://github.com/kmualim/Sorting-warehouse). 
+
+# Building Classficiation
+
+Alternatively, through the implementation of tree structures, a separate project shows its implementation in categorizing objects. I took this to categorize various buildings based on their year of construction, height, year of repair and cost of repair. All these attributes help in figuring out specific values relative to the action one wishes to take. 
+[Code](https://github.com/kmualim/buildingclassification).
+
+# Connect4 
+
+Games are always a fun way to drill in a lot of the concepts learnt in Computer Science and so, one innovative way to implement this is through the use of creating an interactive interface like : Connect 4. The game allows you to play with an opponent as well. 
+
+
+
