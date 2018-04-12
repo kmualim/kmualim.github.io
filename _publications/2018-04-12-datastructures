@@ -2,7 +2,6 @@
 title: "My Projects"
 excerpt: "Getting into Datastructures in Java"
 collection: publications
----
 
 # My Projects
 
@@ -25,5 +24,6 @@ The idea was to be able to use Binary Search Trees in figuring out how to classi
 Alternatively, through the implementation of tree structures, a separate project shows its implementation in categorizing objects. I took this to categorize various buildings based on their year of construction, height, year of repair and cost of repair. All these attributes help in figuring out specific values relative to the action one wishes to take. 
 [Code](https://github.com/kmualim/buildingclassification).
 
+---
 
 
