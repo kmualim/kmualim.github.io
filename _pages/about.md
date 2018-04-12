@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-# Hello!
+I invite you to explore my [projects](https://kmualim.github.io/publications)!
 
-I invite you to explore my [projects]!
-
-Check out my future ventures and cv. 
+Check out my projects and [cv](https://kmualim.github.io/cv). 
 
 
 # About Me 
