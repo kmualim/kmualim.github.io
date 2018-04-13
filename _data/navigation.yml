@@ -3,14 +3,14 @@ main:
   - title: "Current Projects"
     url: /publications/
 
-  - title: "Tantalizing Tastes"
-    url: /teaching/    
+  # title: "Tantalizing Tastes"
+   # url: /teaching/    
 
  # - title: "Teaching"
   #  url: /teaching/    
     
- #- title: "Portfolio"
-   # url: /portfolio/
+ - title: "Tantalizing Tastes"
+    url: /portfolio/
         
  # - title: "Blog Posts"
   #  url: /year-archive/
