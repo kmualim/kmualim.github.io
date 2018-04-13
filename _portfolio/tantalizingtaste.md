@@ -8,7 +8,7 @@ In summary, this project branches into discovering how our tastes and preference
 collection : portfolio
 ---
 
-### The Idea
+# The Idea
 
 #### Let's learn a little bit more about [tastes](https://www.youtube.com/watch?v=AujY-Fkx5z8&feature=youtu.be)!
 
