@@ -1,7 +1,15 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Tantalizing tastes!"
+excerpt: "Our understanding of taste is as scarce as the brain. I believe that in a lot of ways, food is a language that can be understood globally and has to be deconstructed via posessing a greater understanding of our neuronal networks. " <br/><'img src=/images/tongue.png'>
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+### The Idea
+
+#### Let's learn a little bit more about [tastes](https://www.youtube.com/watch?v=AujY-Fkx5z8&feature=youtu.be)!
+
+Click here to read on the project's [proposal and progress](https://kristy-mualim.squarespace.com/)! 
+
+(Still in progress)
+
+In the fundamental stages of its development, the idea constitutes the use of an EEG machine and a variety of personalized taste tests. The ability for us to taste (salty, sweet, bitter, umami and sourness) brings about spike information that have overlaps. While usual experiments are geared towards treating taste as a universal entity, I plan to take a different approach. Our taste and preferences direct the firing properties of our "taste" neurons and are fundamentally responsible in determining our likes and dislikes in terms of food, clearly illustrating how unique our tastes become through development. 
