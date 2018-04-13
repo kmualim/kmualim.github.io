@@ -1,11 +1,13 @@
 # main links links
 main:
-  - title: "Current Projects"
-    url: /publications/  
-    
- - title: "Tantalizing Tastes"
+  - title: "Projects/Papers"
+    url: /publications/
+
+  - title: "Tantalizing Tastes"
     url: /portfolio/
-       
-  - title: "CV"
-    url: /files/Mualim_Kristy_ResumeCV_1.pdf
+        
+#  - title: "Writing"
+  #  url: /year-archive/
     
+  - title: "CV"
+    url: /files/Mualim_Kristy_ResumeCV1.pdf
