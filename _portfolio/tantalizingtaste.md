@@ -1,7 +1,7 @@
 ---
-title: "Tantalizing tastes!"
-excerpt: "Our understanding of taste is as scarce as the brain. I believe that in a lot of ways, food is a language that can be understood globally and has to be deconstructed via posessing a greater understanding of our neuronal networks. <br/><'img src=/images/tongue.png'>"
-collection: portfolio
+title : "Tantalizing tastes!"
+excerpt : "Our understanding of taste is as scarce as the brain. I believe that in a lot of ways, food is a language that can be understood globally and has to be deconstructed via posessing a greater understanding of our neuronal networks. <br/><'img src=/images/tongue.png'>"
+collection : portfolio
 ---
 
 ### The Idea
