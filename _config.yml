@@ -83,7 +83,7 @@ author:
   bio              : "looking for ways to better the world "
   location         : "Montreal, Quebec, Canada"
   employer         : "Gehring Lab, Bellini Research Centre" 
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "kristy.mualim@mail.mcgill.ca"
   uri              :
   bitbucket        :
