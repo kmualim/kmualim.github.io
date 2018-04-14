@@ -11,7 +11,7 @@ Do check out my current [project](https://kmualim.github.io/portfolio/tantalizin
 
 Read about me (below)! 
 
-Check out my [past projects here]((https://kmualim.github.io/publications/2018-04-12-games/) & my [cv](https://kmualim.github.io/cv). 
+Check out my [past projects here](https://kmualim.github.io/publications/) & my [cv](https://kmualim.github.io/cv). 
 
 # About Me 
 
