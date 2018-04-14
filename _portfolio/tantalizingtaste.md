@@ -8,9 +8,12 @@ In summary, this project branches into discovering how our tastes and preference
 collection : portfolio
 ---
 
+
 # The Idea
 
-#### Let's learn a little bit more about [tastes](https://www.youtube.com/watch?v=AujY-Fkx5z8&feature=youtu.be)!
+If you'd like some background information regarding tastes, Check out my video [here](https://www.youtube.com/watch?v=AujY-Fkx5z8&feature=youtu.be).
+
+Now that we're all up to speed with our taste buds, 
 
 Click here to read on the project's [proposal and progress](https://kristy-mualim.squarespace.com/)! 
 
