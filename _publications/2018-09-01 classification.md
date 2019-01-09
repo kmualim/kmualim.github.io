@@ -10,10 +10,16 @@ The dataseet contained images that were not always centerred and straight, or fr
 empty pictures as well. 
 
 ## Image Preprocessing 
-</br><img src='/images/original.png'></br><img src='/images/o-preeprocessed.png'>
 
+</br><img src='/images/original.png'>
+Original Image 
 
+</br><img src='/images/o-preeprocessed.png'>
+Preprocessed Image
 
+Our implementation of classifier built on a deep learning framework improved accuracy by 11% above a baseline CNN classifier. 
+
+[Read more about it here](https://github.com/kmualim/COMP551/paper)
 
 
 
