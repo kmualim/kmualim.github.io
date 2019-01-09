@@ -10,7 +10,7 @@ The dataseet contained images that were not always centerred and straight, or fr
 empty pictures as well. 
 
 ## Image Preprocessing 
-<br></images/original.png></br><br></images/o-preeprocessed.png></br>
+</br><img src='/images/original.png'></br><img src='/images/o-preeprocessed.png'>
 
 
 
