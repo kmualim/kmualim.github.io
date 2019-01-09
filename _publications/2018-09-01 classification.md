@@ -14,7 +14,7 @@ empty pictures as well.
 </br><img src='/images/original.png'>
 Original Image 
 
-</br><img src='/images/o-preeprocessed.png'>
+</br><img src='/images/o-processed.png'>
 Preprocessed Image
 
 Our implementation of classifier built on a deep learning framework improved accuracy by 11% above a baseline CNN classifier. 
