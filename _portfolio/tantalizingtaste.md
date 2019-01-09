@@ -9,7 +9,7 @@ collection : portfolio
 ---
 
 
-# The Idea
+## The Idea
 
 If you'd like some background information regarding tastes, Check out my video [here](https://www.youtube.com/watch?v=AujY-Fkx5z8&feature=youtu.be).
 
