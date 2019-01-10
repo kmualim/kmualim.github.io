@@ -2,7 +2,10 @@
 title: "Implementing Datastructures in Automation and Classification"
 excerpt: "Utilizing datastructures I learnt in Java such as Linked lists and Binary Search Trees, I applied them to figuring out ways to address daily problems. We explore its use in the automation of warehouses as well as classification systems that allow easy extraction of desired information."
 collection: publications
+date: 2018-04-01
+location: "Montreal, Quebec"
 ---
+
 
 # My Projects
 
