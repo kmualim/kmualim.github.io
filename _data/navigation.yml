@@ -1,13 +1,28 @@
 # main links links
 main:
-  - title: "Projects/Papers"
+  - title: "CV"
+    url: /cv/
+
+  - title: "Projects"
     url: /publications/
 
-  - title: "Tantalizing Tastes"
-    url: /portfolio/
-        
-#  - title: "Writing"
-  #  url: /year-archive/
+  # - title: "Awards & Honors"
+  #   url: /awards/
+
+  # - title: "Talks"
+  #  url: /talks/    
+
+  # - title: "Teaching"
+  #   url: /teaching/    
     
-  - title: "CV"
-    url: /files/Mualim_Kristy_ResumeCV1.pdf
+  # - title: "Portfolio"
+  #   url: /portfolio/
+        
+  - title: "Blogs"
+    url: /year-archive/
+    
+  - title: "Contact"
+    url: /contact/  
+    
+  # - title: "Guide"
+    # url: /markdown/
