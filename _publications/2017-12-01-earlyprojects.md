@@ -2,6 +2,8 @@
 title: "Introduction to Java"
 excerpt: "My earliest projects in coding simple algorithms to solve quirky questions."
 collection: publications
+date: 2017-12-01
+location: "Montreal, Quebec"
 ---
 
 # Early Projects 
