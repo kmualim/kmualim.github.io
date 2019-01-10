@@ -7,7 +7,8 @@ redirect_from:
   - /resume
 ---
 
-[Click to view CV [PDF]](https://kmualim.github.io/files/cv.pdf)
+[Click to view CV [PDF]](https://kmualim.github.com/files/cv.pdf)
+<!-- <embed src="http://kmualim.github..com/files/cv.pdf" width="650" height="1800" type='application/pdf'> -->
 
 {% include base_path %}
 
