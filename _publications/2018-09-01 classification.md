@@ -2,7 +2,10 @@
 title: "A classification task to recognize simple hand drawn objects  "
 excerpt: "Generate a classifier to identify hand-drawn images in 18 different categories"
 collection: publications
+date: 2018-09-01
+location: "Montreal, Quebec"
 ---
+
 # Classification task
 
 By using sklearn/tensorflow/pytorch libraries, we generated a classifier that could classify hand-drawn images from Google's *Quick, Draw!* project. 
