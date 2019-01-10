@@ -1,9 +1,4 @@
 ---
-layout: archive
-title: "Contact"
-permalink: /contact/
-author_profile: true
----
 template: custom
 title: Contact Form
 
