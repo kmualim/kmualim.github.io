@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
+# About Me
 
 A driven and dedicated biochemist turned software engineer, interested in the applications of tech to answering biological questions.  
 
