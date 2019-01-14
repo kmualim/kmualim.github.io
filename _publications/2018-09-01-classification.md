@@ -23,6 +23,6 @@ Original Image
 Preprocessed Image
 
 Our implementation of classifier built on a deep learning framework improved accuracy by 11% above a baseline CNN classifier. 
-
+We utilized several algorithms, such as CNNs and played around with utilizing pre-trained models such as Google Inception V3. 
 
 
