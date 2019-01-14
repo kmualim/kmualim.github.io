@@ -12,6 +12,6 @@ Utilizing real time data to facilitate easier accessibility for the physically c
 <b>[A Classifier for categorizing hand-drawn images](http://kmualim.github.io/publications/2018-09-01-classification)</b> <br>
 Utilizing CNNs in image recognition
 
-<b>[A deep learning approach to predicting gene expression](http://kmualim.github.io/_publications/2018-10-01-geneexpr)</b> <br>
+<b>[A deep learning approach to predicting gene expression](http://kmualim.github.io/publications/2018-10-01-geneexpr)</b> <br>
 Improving the general baselines and approaches to predicting gene expression via utilizing L1000 Consortium
 
