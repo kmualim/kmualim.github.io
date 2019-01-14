@@ -4,11 +4,11 @@ permalink: /publications/
 author_profile: true
 ---
 
+![alt text](/files/accelerometer.png)
 <b>[A Machine-Learning approach to improving building accessibility](http://kmualim.github.io/_publications/2018-10-08-yhack.md)</b> <br>
 Utilizing real time data to facilitate easier accessibility for the physically challenged within communities 
 
-![alt text](/files/accelerometer.png)
-
+![alt text](/files/handdrawn.png)
 <b>[A Classifier for categorizing hand-drawn images](http://kmualim.github.io/_publications/2018-09-01-classification.md)</b> <br>
 Utilizing CNNs in image recognition
 
