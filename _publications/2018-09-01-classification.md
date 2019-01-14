@@ -6,6 +6,8 @@ date: 2018-09-01
 location: "Montreal, Quebec"
 ---
 
+[Code](https://github.com/kmualim/comp551_final/blob/master)  [Read more about it here](https://github.com/kmualim/comp551_final/blob/master/Kaggle_Report.pdf)
+
 # Classification task
 
 By using sklearn/tensorflow/pytorch libraries, we generated a classifier that could classify hand-drawn images from Google's *Quick, Draw!* project. 
@@ -22,9 +24,5 @@ Preprocessed Image
 
 Our implementation of classifier built on a deep learning framework improved accuracy by 11% above a baseline CNN classifier. 
 
-[Read more about it here](https://github.com/kmualim/COMP551/paper)
 
-
-
-[Code](https://github.com/kmualim/connect4) 
 
