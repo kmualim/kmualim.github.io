@@ -1,0 +1,36 @@
+---
+title: "Utilizing deep learning in predicting gene expression  "
+excerpt: "Improving and evaluating baselines in predicting gene expression"
+collection: publications
+date: 2018-10-01
+location: "Montreal, Quebec"
+---
+
+[Code](https://github.com/kmualim/comp561_project)  [Read more about it here](https://github.com/kmualim/comp561_project/blob/master/bioc561_report%20(1).pdf)
+
+# Deep Learning in Gene Expression
+
+The characterization of gene expession patterns of cells in various biological states has always been seen as a fundamental problem in molecular biology, where gene expression 
+profiling has been fundamentally adopted as a way to capture gene expression patterns in cellular response to diseases, genetic perturbations and drug treatments.
+
+This project was motivated by the CMap project, LINCS program as well as work presented by Chen, et. al. ![paper](/files/geneexpr.pdf)
+
+From the CMap and LINCS program, it was observed that most expression profiles relating to the large number of genes (~22,000) across the whole human genome was known to be highly correlated - specifically,  set of ~1,000 carefully chosen genes that could approximately capature 80% of inforrmation in CMap data.  
+The L1000 Luminex bead technology thus seeks to measure the expression profiles of these ~1,000 genes, called <i> landmark genes </i>. 
+
+LINCS program currently utilizes linear regression as an inference method, which trains regression models indepedently for individual target genes. Linear regression inevitably disregards the nonlinearities present within gene expression profiles.  We thus saw a need to improve the current baselines and methods in predicting gene expression.
+
+# Data 
+
+We utilized 3 datasets: 
+1. Gene Expression Omnibus (GEO)
+2. Geenotype-Tissue Expression (GTEx) 
+3. 1000 Genomes expression data 
+
+
+# Results 
+
+The biggest drawback we experienced was a lack of computational power. I utilized Google Cloud Computing for data preproceessing and took to using 
+a smaller section of the dataset to generate accuracy values similar to that illustrated in the ![paper](/files/geneexpr.pdf). 
+
+ 
