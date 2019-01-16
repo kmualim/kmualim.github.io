@@ -10,9 +10,9 @@ redirect_from:
 
 # About Me
 
-A driven and dedicated biochemist turned software engineer, interested in the applications of tech to answering biological questions. 
+A driven and curious biochemist turned software engineer, interested in the applications of technology in answering biological questions
 
-I love exploring and continuously searching for new diverse projects. While I enjoy building and experimenting with different machine learning algorithms, I love to hike, meet new people and [reinvent the ways we enjoy and consume food](https://kristy-mualim.squarespace.com).
+I love exploring and engaging in different new diverse projects. While I enjoy building machine learning models, I also love to hike, meet new people and [reinvent the ways we enjoy and consume food](https://kristy-mualim.squarespace.com).
 
 Check out my [projects here](https://kmualim.github.io/publications/) & my [cv](https://kmualim.github.io/cv). 
 
