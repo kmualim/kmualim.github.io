@@ -17,5 +17,5 @@ Utilizing CNNs in image recognition
 Improving the general baselines and approaches to predicting gene expression via utilizing L1000 Consortium
 
 ![alt text](/images/phylo.png) <br>
-<b>[Phylo: a novel way to solving the multiple sequence alignment problem](http://kmualim.github.io/publications/2018-11-28)</b><br>
+<b>[Phylo: a novel way to solving the multiple sequence alignment problem](http://kmualim.github.io/publications/2018-11-28-phylo.md)</b><br>
 Solving a multiple sequence alignment problem by utilizing a human crowd-computing platform
