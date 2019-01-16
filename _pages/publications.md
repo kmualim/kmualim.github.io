@@ -4,7 +4,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-![alt text](/files/accelerometer.png)
+![alt text](/images/maxcess.png)
 <b>[A Machine-Learning approach to improving building accessibility](http://kmualim.github.io/publications/2018-10-08-yhack)</b> <br>
 Utilizing real time data to facilitate easier accessibility for the physically challenged within communities 
 
