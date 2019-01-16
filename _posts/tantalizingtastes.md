@@ -1,12 +1,12 @@
 ---
 title: "Tantalizing tastes!"
-excerpt: "Our understanding of taste is as scarce as the brain. I believe that in a lot of ways, food is a language that can be understood globally and has to be deconstructed via posessing a greater understanding of our neuronal networks. "
+excerpt: "Our understanding of taste is as scarce as the brain. I believe that in a lot of ways, food is a language that can be understood globally and has to be deconstructed by posessing a greater understanding of our neuronal networks. "
 collection: posts
 ---
 
 ### The Idea
 
-#### Let's learn a little bit more about [tastes](https://www.youtube.com/watch?v=AujY-Fkx5z8&feature=youtu.be)!
+### Let's learn a little bit more about [tastes](https://www.youtube.com/watch?v=AujY-Fkx5z8&feature=youtu.be)!
 
 Click here to read on the project's [proposal and progress](https://kristy-mualim.squarespace.com/)! 
 
