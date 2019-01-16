@@ -15,7 +15,7 @@ If you'd like some background information regarding tastes, Check out my video [
 
 Now that we're all up to speed with our taste buds, 
 
-Click here to read on the project's [proposal and progress](https://kristy-mualim.squarespace.com/)! 
+Click here to read on the project's [proposal](https://kristy-mualim.squarespace.com/)! 
 
 (Still in progress)
 
