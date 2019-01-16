@@ -14,8 +14,7 @@ redirect_from:
 
 Experience
 ======
-* 2018-2019: Research Assistant
-  * McGill University
+* 2018-2019: Research Assistant @ McGill University
   * Implemented CNNs to solve multiple sequence alignment problem via utilizing human-computing crowd sourcing games - Phylo
   * Supervisor: Professor Jerome Waldispuhl
 
@@ -32,10 +31,10 @@ Projects
 
 Education
 ======
-
-* Diploma in Culinary Arts, International Culinary Centre, 2015 
 * B.S. in Biochemistry, C.S, McGill University, 2019 (expected)
-
+  * BL21 Research scholar
+  * Yale Hackathon sponsor award: Highest social good and scalability in machine learning 
+* Diploma in Culinary Arts, International Culinary Centre, 2015 
 
 Skills & Relevant Courses
 ======
