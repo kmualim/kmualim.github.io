@@ -13,7 +13,7 @@ Utilizing real time data to facilitate easier accessibility for the physically c
 Improving the general baselines and approaches to predicting gene expression via utilizing LINCS Consortium
 
 ![alt text](/images/phylo.png) <br>
-<b>[Phylo: a novel way to solving the multiple sequence alignment problem](http://kmualim.github.io/publications/2018-11-28-phylo.md)</b><br>
+<b>[Phylo: a novel way to solving the multiple sequence alignment problem](http://kmualim.github.io/publications/2018-11-28-phylo)</b><br>
 Solving a multiple sequence alignment problem by utilizing a human crowd-computing platform
 
 ![alt text](/images/handdrawn.png)<br>
