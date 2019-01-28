@@ -16,7 +16,7 @@ I love exploring and engaging in different new diverse projects. While I enjoy b
 
 Check out my [projects here](https://kmualim.github.io/publications/) & my [cv](https://kmualim.github.io/cv). 
 
-## Projects
+## [Projects](https://kmualim.github.io/publications/)
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
