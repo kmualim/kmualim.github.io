@@ -16,13 +16,13 @@ I love exploring and engaging in different new diverse projects. While I enjoy b
 
 Check out my [projects here](https://kmualim.github.io/publications/) & my [cv](https://kmualim.github.io/cv). 
 
-Projects
+##Projects
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Experience
+##Experience
 ======
 * 2018-2019: Research Assistant @ McGill University
   * Implemented CNNs to solve multiple sequence alignment problem via utilizing human-computing crowd sourcing games - Phylo
@@ -33,14 +33,14 @@ Experience
   * Initated novel project, resolved full crystal structure of CNNM Transmembrane protein
   * Supervisor: Professor Kalle Gehring
 
-Education
+##Education
 ======
 * B.S. in Biochemistry, C.S, McGill University, 2019 (expected)
   * BL21 Research scholar
   * Yale Hackathon sponsor award: Highest social good and scalability in machine learning 
 * Diploma in Culinary Arts, International Culinary Centre, 2015 
 
-Skills & Relevant Courses
+##Skills & Relevant Courses
 ======
 * Python, Java, C, BASH Scripting
 * Technology
