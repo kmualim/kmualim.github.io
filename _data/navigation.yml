@@ -12,8 +12,11 @@ main:
     
   #- title: "Writings"
   #  url: /posts/
+  
   - title: "Writings"
-    url: /teaching/
+    url: /talks/
+  # - title: "Writings"
+  #   url: /teaching/
   
   - title: "CV"
     url: /files/cv.pdf
