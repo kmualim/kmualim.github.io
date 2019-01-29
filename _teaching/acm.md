@@ -1,6 +1,7 @@
 ---
 title: "ACM - Canadian Women in Technology"
 excerpt: " An invitation to the Canadian Celebration for Women in Technology in Halifax 2018 opened up my eyes to the lack of inclusion and communities present for women in technology. "
+date: 2018-11-03
 collection: posts
 ---
 
