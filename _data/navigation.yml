@@ -5,16 +5,15 @@ main:
     url: /publications/
 
   # - title: "Awards & Honors"
-  #   url: /awards/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
+  #   url: /awards/        
     
   - title: "Food Science!"
     url: /portfolio/
     
+  #- title: "Writings"
+  #  url: /posts/
   - title: "Writings"
-    url: /posts/
+    url: /teaching/
   
   - title: "CV"
     url: /files/cv.pdf
