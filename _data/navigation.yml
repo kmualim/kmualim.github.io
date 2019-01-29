@@ -16,8 +16,8 @@ main:
   - title: "Food Science!"
     url: /portfolio/
         
-  # - title: "Blogs"
-  #  url: /year-archive/
+   - title: "Writings"
+    url: /posts/
   
   - title: "CV"
     url: /files/cv.pdf
