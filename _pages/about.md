@@ -22,19 +22,18 @@ Check out my [projects here](https://kmualim.github.io/publications/) & my [cv](
   {% endfor %}</ul>
 
 ## Experience
-* 2018-2019: Research Assistant @ McGill University
-  * Implemented CNNs to solve multiple sequence alignment problem via utilizing human-computing crowd sourcing games - Phylo
-  * Supervisor: Professor Jerome Waldispuhl
-
-* 2016-2018: Research Assistant
-  * McGill University
+* 2016-2019: Research Assistant @ McGill University
+  <b> Supervisor: Professor Jerome Waldispuhl </b> 
+  * Implemented CNNs to solve multiple sequence alignment problem via utilizing human-computing crowd sourcing games - [Phylo](https://phylo.cs.mcgill.ca) <br>
+  
+  <b> Supervisor: Professor Kalle Gehring </b>
   * Initated novel project, resolved full crystal structure of CNNM Transmembrane protein
-  * Supervisor: Professor Kalle Gehring
+  
 
 ## Education
 * B.S. in Biochemistry, C.S, McGill University, 2019 (expected)
-  * BL21 Research scholar
-  * Yale Hackathon sponsor award: Highest social good and scalability in machine learning 
+  * BL21 research scholar
+  * Yale hackathon sponsor award: Highest social good and scalability in machine learning
 * Diploma in Culinary Arts, International Culinary Centre, 2015 
 
 ## Skills & Relevant Courses
