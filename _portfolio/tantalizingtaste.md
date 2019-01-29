@@ -14,7 +14,7 @@ If you'd like just a quick background in tastes, Check out my video [here](https
 
 Now that we're all up to speed with our taste buds, 
 
-Click here to read on the project's [proposal](https://kristy-mualim.squarespace.com/)! 
+Click here to get on the project's [website](https://kristy-mualim.squarespace.com/)! 
 
 <i> (Still in progress) </i>
 
