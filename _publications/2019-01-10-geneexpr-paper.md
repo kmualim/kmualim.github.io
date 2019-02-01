@@ -6,7 +6,7 @@ date: 2019-01-10
 location: "Palo Alto, CA & Montreal, Quebec"
 ---
 
-# Deep learning on Gene expression inference 
+# Deep learning on gene expression inference 
 
 One of the greatest progressions in Biology has been attributed to employing gene expression profiling to understanding the expression of thousands of genes under given circumstances. Gene expression profiling has served in understanding cellular functionality and differentiation during disease pathogeneity as well as in determining the regulatory mechanisms associated with different system perturbations. 
 
@@ -18,6 +18,7 @@ Since the discovery of the LINCS Consortium, where ~1,000 carefully selected gen
 
 [Chen et al.](files/geneexpr.pdf) were one of the first to apply deep neural networks to multi-task regression problem for gene expression inference. The authors constructed a fully connected neural network that outperformed linear regression. A re-implementation of the paper and an attempt to improve baseline comparisons were partially successful - given limited computational power. 
  Alternatively, [Wang et al.](files/gans-geneexpr.pdf) were one of the first to utilize aa novel GAN for the problem of gene expression inference. The GAN implemented is conditioned on target genes from a given gene expression profile of landmark genes. The generator is a convolutional DenseNet, 3 layers with 9000 hidden units each. 
+ 
 
 ## Concerns to address
 
