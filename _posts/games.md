@@ -1,7 +1,7 @@
 ---
 title: "Let's play some games"
 excerpt: "A collection of interactive games. You're bound to find something you'll enjoy! <br/><img src='/files/21.png'>"
-collection: publications
+collection: posts
 date: 2018-04-08
 location: "Montreal, Quebec"
 ---
