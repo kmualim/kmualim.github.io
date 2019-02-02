@@ -26,7 +26,7 @@ Check out my [projects here](https://kmualim.github.io/publications/) & my [cv](
   <b> Supervisor: Professor Jerome Waldispuhl </b> 
   * Implemented CNNs to solve multiple sequence alignment problem via utilizing crowd-sourced human-computing platforms - [Phylo](https://phylo.cs.mcgill.ca) 
   * Performed feature selection on known sequence alignments that allow for automatic adjustments of puzzle difficulty based on skill level 
-* 2016-2018: Research Assistant @ McGill University 
+* 2016-2018: Research Assistant @ McGill University <br>
   <b> Supervisor: Professor Kalle Gehring </b>
   * Initated novel project, resolved full crystal structure of CNNM Transmembrane protein
 
