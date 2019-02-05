@@ -6,7 +6,7 @@ date: 2019-01-10
 location: "Palo Alto, CA & Montreal, Quebec"
 ---
 
-# Deep learning on gene expression inference 
+# Deep learning on gene expression inference  
 
 One of the greatest progressions in Biology has been attributed to employing gene expression profiling to understanding the expression of thousands of genes under given circumstances. Gene expression profiling has served in understanding cellular functionality and differentiation during disease pathogeneity as well as in determining the regulatory mechanisms associated with different system perturbations. 
 
@@ -24,4 +24,4 @@ Since the discovery of the LINCS Consortium, where ~1,000 carefully selected gen
 
 The application of GANs to gene expression inference is an incredibly fascinating experiment that seems predictably good at outperforming previous implementations of resolving this task - such as linear regression, k nearest neighbours and most recently deep neural networks. However, the use of DenseNet on data without any obvious or underlying spatial structure is perplexing and intriguing. A successful attempt to overcome this obstacle could allow its extension and generalization to other similar datasets. The lack of a given open source implementation of this model on gene expression hence serves as a bottleneck in advancing the progression of its applications. 
 
-(in progress) 
+(in progress) [GAN Implementation on MNIST](https://github.com/kmualim/DCGAN-Keras-Implementation)
