@@ -19,3 +19,7 @@ Solving a multiple sequence alignment problem by utilizing a human crowd-computi
 ![alt text](/images/handdrawn.png)<br>
 <b>[A Classifier for categorizing hand-drawn images](http://kmualim.github.io/publications/2018-09-01-classification)</b> <br>
 Utilizing CNNs in image recognition
+
+![alt text](/files/dcgan-image.png)<br>
+<b>[Training Generative Adversarial Networks](http://kmualim.github.io/publications/2019-01-10-training-gans)</b> <br> 
+A brief introduction into GANs and tips on training a Deep Convolutional GAN!
