@@ -18,7 +18,7 @@ I didn't find a comprehensive compilation of the respective solutions for some p
 If you're building a GAN and utilizing it on a more complex dataset, I would recommend trying it out on a simple MNIST dataset first before proceeding. 
 This way, you'll know that your model works brilliantly. 
 Thus, this is my attempt at illustrating my entire journey & perhaps how I've overcame my obstacles might help you too! 
-
+<br>
 The general architecture of a DCGAN looks like this: 
 ![](https://github.com/kmualim/DCGAN-Keras-Implementation/blob/master/files/dcgan-image.png)
 
@@ -26,7 +26,7 @@ The main issues I faced after building the model infrastructure was that:
   1. Initial runs causes model to converge very quickly to loss = 0 
   2. I noticed that my <b>discriminator loss</b> converges rapidly to zero thus preventing the generator from learning
   3. Adversarial loss decreases to 0 almost immediately after initiation
-all possibly attributed to the instability of building a GAN/DCGAN. 
+all possibly attributed to the instability of building a GAN/DCGAN. <br> 
 ![](https://github.com/kmualim/kmualim.github.io/blob/master/images/gan-initialrun.png)
   <i> Fig 1. Epoch v Loss </i> 
  
@@ -50,13 +50,14 @@ What you could additionally try:
 
 Final architecture that worked for 28x28 images, following ![2](https://arxiv.org/pdf/1511.06434.pdf)
 ** differently sized images may require different parameter changes 
+<br>
 Loss values were also consistently low: 
 ![](https://github.com/kmualim/kmualim.github.io/blob/master/images/final-run.png) <br>
 
 The generated image obtained at epoch 0 was incredibly different from the generated image obtained at epoch 4000: <br>
 ![](https://github.com/kmualim/kmualim.github.io/blob/master/images/origin-img.png) <br> 
 ![](https://github.com/kmualim/kmualim.github.io/blob/master/images/final-img.png) <br>
-
+<br>
 However, the image resolution/the generation of images could still be vastly improved. The numbers are discernible but still blurry and could be more concise. Any tips and comments are welcomed and do reach out, perhaps even running the model for more epochs might make the images better. (People have noted that their implementations have often needed to run for more epochs than predicted.)
 
 Summary of architectural guidelines for stable Deep Convolutional GANs, as illustrated in [2]: 
