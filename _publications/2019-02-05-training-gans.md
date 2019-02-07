@@ -3,7 +3,7 @@ A Generative Adversarial Network takes the idea of using a generator model to ge
 discriminator model that decides if image it receives is a fake. A classic analogy for a GAN takes the case of the police (discriminator) and the counterfeiter (generator). 
 I am, of course, really oversimplifying what GANs are and I do recommend reading more material to find out more! <br> 
 [An overview paper](https://arxiv.org/abs/1710.07035) <br> 
-[GANs in layman terms](https://www.analyticsvidhya.com/blog/2017/06/introductory-generative-adversarial-networks-gans/) <br> 
+[GANs for the non-technical](https://www.analyticsvidhya.com/blog/2017/06/introductory-generative-adversarial-networks-gans/) <br> 
 [Fantastic GANs and where to find them](http://guimperarnau.com/blog/2017/03/Fantastic-GANs-and-where-to-find-them) <br> 
 [Keeping up with GANs](https://medium.com/nurture-ai/keeping-up-with-the-gans-66e89343b46) 
 
@@ -14,7 +14,7 @@ In addition, DCGANs also experience higher stability during training than GANs, 
 These convolutional nets find areas of correlation within images and looks for spatial correlations, enabling it to be more fitting for image/video data.
 
 I built a DCGAN for the first time as an interest project and met with some challenges during training. Google is a wonderful resource for helping you solve problems associated to GANs, but
-I didn't find a comprehensive compilation of the respective solutions for particular problems in building a GAN.
+I didn't find a comprehensive compilation of the respective solutions for some problems in building a GAN.
 If you're building a GAN and utilizing it on a more complex dataset, I would recommend trying it out on a simple MNIST dataset first before proceeding. 
 This way, you'll know that your model works brilliantly. 
 Thus, this is my attempt at illustrating my entire journey & perhaps how I've overcame my obstacles might help you too! 
@@ -27,7 +27,9 @@ The main issues I faced after building the model infrastructure was that:
   2. I noticed that my <b>discriminator loss<br> converges rapidly to zero thus preventing the generator from learning
   3. Adversarial loss decreases to 0 almost immediately after initiation
 all possibly attributed to the instability of building a GAN/DCGAN. 
-
+![](https://github.com/kmualim/kmualim.github.io/tree/master/images/gan-initialrun.png)
+  <i> Fig 1. Epoch v Loss </i> 
+ 
 What I tried and what worked: 
   1. Addition of noise to both input and fake images 
   2. Helped not to pre-train the discriminator 
@@ -48,6 +50,14 @@ What you could additionally try:
 
 Final architecture that worked for 28x28 images, following ![2](https://arxiv.org/pdf/1511.06434.pdf)
 ** differently sized images may require different parameter changes 
+Loss values were also consistently low: 
+![](https://github.com/kmualim/kmualim.github.io/tree/master/images/final-run.png) <br>
+
+The generated image obtained at epoch 0 was incredibly different from the generated image obtained at epoch 4000: <br>
+![](https://github.com/kmualim/kmualim.github.io/tree/master/images/origin-img.png) <br> 
+![](https://github.com/kmualim/kmualim.github.io/tree/master/images/final-img.png) <br>
+
+However, the image resolution/the generation of images could still be vastly improved. The numbers are discernible but still blurry and could be more concise. Any tips and comments are welcomed and do reach out, perhaps even running the model for more epochs might make the images better. (People have noted that their implementations have often needed to run for more epochs than predicted.)
 
 Summary of architectural guidelines for stable Deep Convolutional GANs, as illustrated in [2]: 
 • Replace any pooling layers with strided convolutions (discriminator) and fractional-strided
