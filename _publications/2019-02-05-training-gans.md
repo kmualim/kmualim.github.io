@@ -60,7 +60,7 @@ The generated image obtained at epoch 0 was incredibly different from the genera
 <br>
 However, the image resolution/the generation of images could still be vastly improved. The numbers are discernible but still blurry and could be more concise. Any tips and comments are welcomed and do reach out, perhaps even running the model for more epochs might make the images better. (People have noted that their implementations have often needed to run for more epochs than predicted.)
 
-Summary of architectural guidelines for stable Deep Convolutional GANs, as illustrated in [2]: 
+Summary of architectural guidelines for stable Deep Convolutional GANs, as illustrated in [2](https://arxiv.org/pdf/1511.06434.pdf): 
 • Replace any pooling layers with strided convolutions (discriminator) and fractional-strided
 convolutions (generator).
 • Use batchnorm in both the generator and the discriminator.
@@ -73,7 +73,7 @@ as a very interesting read and i would definitely recommend!
 
 References: 
 1. [Improved Techniques for Training GANs](https://arxiv.org/pdf/1606.03498.pdf)
-2. [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Network](https://arxiv.org/pdf/1511.06434.pdf
+2. [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Network](https://arxiv.org/pdf/1511.06434.pdf)
 3. [Awesome gan applications](https://github.com/nashory/gans-awesome-applications). 
 4. [Gan Pitfalls and Solutions](https://medium.com/@utk.is.here/keep-calm-and-train-a-gan-pitfalls-and-tips-on-training-generative-adversarial-networks-edd529764aa)
 5. [GAN](https://skymind.ai/wiki/generative-adversarial-network-gan) 
