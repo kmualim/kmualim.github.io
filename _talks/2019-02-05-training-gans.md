@@ -7,4 +7,4 @@ date: 2019-02-05
 location: "Palo Alto, California"
 ---
 
-A brief introduction into GANs and some tips at training it [here](http://kmualim.github.io/publications/2019-02-05-training-gans.md)
+A brief introduction into GANs and some tips at training it [here](https://kmualim.github.io/publications/2019-02-05-training-gans)
