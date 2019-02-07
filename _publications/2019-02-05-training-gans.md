@@ -30,12 +30,12 @@ all possibly attributed to the instability of building a GAN/DCGAN. <br>
 ![](https://github.com/kmualim/kmualim.github.io/blob/master/images/gan-initialrun.png)
   <i> Fig 1. Epoch v Loss </i> 
  
-What I tried and what worked: 
-  1*. Addition of noise to both input and fake images
-  2*. Helped not to pre-train the discriminator
-  3. Tried changing convolutional layers located in the generator 
-  4. Changed convolutional filter size to 3x3, was previously 5x5 (I've seen most places put this at 4) 
-  5. Reduced depths of conv layers to a consistent value of 128 in v2.0 for the discriminator slowed the convergence
+What I tried and what worked: <br>
+  1*. Addition of noise to both input and fake images <br>
+  2*. Helped not to pre-train the discriminator <br>
+  3. Tried changing convolutional layers located in the generator <br>
+  4. Changed convolutional filter size to 3x3, was previously 5x5 (I've seen most places put this at 4) <br>
+  5. Reduced depths of conv layers to a consistent value of 128 in v2.0 for the discriminator slowed the convergence <br>
   6. lowered dropout values (should be ideally kept around 0.3-0.6)
   
 In particular, <b>1 & 2</b> are really popular solutions cited in most places. 
