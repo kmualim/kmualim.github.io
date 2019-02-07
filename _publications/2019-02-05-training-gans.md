@@ -8,6 +8,8 @@ I am, of course, really oversimplifying what GANs are and I do recommend reading
 [Keeping up with GANs](https://medium.com/nurture-ai/keeping-up-with-the-gans-66e89343b46) 
 
 ## Deep Convolutional Generative Adversarial Network (DCGAN) 
+[Code for DCGAN Implementation on MNIST](https://github.com/kmualim/DCGAN-Keras-Implementation)
+
 A DCGAN focuses on deep convolutional networks in places of fully-connected networks. 
 These convolutional nets find areas of correlation within images and looks for spatial correlations, enabling it to be more fitting for image/video data.
 In addition, DCGANs also experience higher stability during training than GANs, giving you possibly an easier time at building a GAN. 
