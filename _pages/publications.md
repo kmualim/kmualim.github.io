@@ -21,5 +21,5 @@ Solving a multiple sequence alignment problem by utilizing a human crowd-computi
 Utilizing CNNs in image recognition
 
 ![alt text](https://github.com/kmualim/DCGAN-Keras-Implementation/blob/master/files/dcgan-image.png)<br>
-<b>[Training Generative Adversarial Networks](http://kmualim.github.io/publications/2019-01-10-training-gans)</b> <br> 
+<b>[Training Generative Adversarial Networks](http://kmualim.github.io/publications/2019-02-05-training-gans)</b> <br> 
 A brief introduction into GANs and tips on training a Deep Convolutional GAN!
