@@ -22,6 +22,7 @@ Thus, this is my attempt at illustrating my entire journey & perhaps how I've ov
 The general architecture of a DCGAN looks like this: 
 ![](https://github.com/kmualim/DCGAN-Keras-Implementation/blob/master/files/dcgan-image.png)
 
+## Main Issues
 The main issues I faced after building the model infrastructure was that:
   1. Initial runs causes model to converge very quickly to loss = 0 
   2. I noticed that my <b>discriminator loss</b> converges rapidly to zero thus preventing the generator from learning
@@ -29,7 +30,8 @@ The main issues I faced after building the model infrastructure was that:
 all possibly attributed to the instability of building a GAN/DCGAN. <br> 
 ![](https://github.com/kmualim/kmualim.github.io/blob/master/images/gan-initialrun.png)
   <i> Fig 1. Epoch v Loss </i> 
- 
+
+## Probable Solutions
 What I tried and what worked: <br>
   1*. Addition of noise to both input and fake images <br>
   2*. Helped not to pre-train the discriminator <br>
@@ -48,6 +50,7 @@ What you could additionally try: <br>
   9. Don’t stop training early, <b>unless</b> discriminator loss approaches 0 fairly quickly <br>
     - I’ve learnt that GANs take an excruciatingly long time to train and too stopping the training early might be disadvantageous <br>
 
+## Results
 Final architecture that worked for 28x28 images, following [2](https://arxiv.org/pdf/1511.06434.pdf): <br>
 ** differently sized images may require different parameter changes 
 <br>
@@ -60,6 +63,7 @@ The generated image obtained at epoch 0 was incredibly different from the genera
 <br>
 However, the image resolution/the generation of images could still be vastly improved. The numbers are discernible but still blurry and could be more concise. Any tips and comments are welcomed and do reach out, perhaps even running the model for more epochs might make the images better. (People have noted that their implementations have often needed to run for more epochs than predicted.)
 
+## Conclusions
 Summary of architectural guidelines for stable Deep Convolutional GANs, as illustrated in [2](https://arxiv.org/pdf/1511.06434.pdf): 
 • Replace any pooling layers with strided convolutions (discriminator) and fractional-strided
 convolutions (generator).
@@ -71,7 +75,7 @@ convolutions (generator).
 The [paper](https://arxiv.org/pdf/1511.06434.pdf) also gives a really good explanation as to how they attained the respective guidelines, it serves 
 as a very interesting read and i would definitely recommend! 
 
-References: 
+## References 
 1. [Improved Techniques for Training GANs](https://arxiv.org/pdf/1606.03498.pdf)
 2. [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Network](https://arxiv.org/pdf/1511.06434.pdf)
 3. [Awesome gan applications](https://github.com/nashory/gans-awesome-applications). 
