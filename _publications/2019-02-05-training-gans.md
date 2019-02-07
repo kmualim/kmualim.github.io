@@ -31,14 +31,14 @@ all possibly attributed to the instability of building a GAN/DCGAN.
   <i> Fig 1. Epoch v Loss </i> 
  
 What I tried and what worked: 
-  1. Addition of noise to both input and fake images 
-  2. Helped not to pre-train the discriminator 
+  1*. Addition of noise to both input and fake images
+  2*. Helped not to pre-train the discriminator
   3. Tried changing convolutional layers located in the generator 
   4. Changed convolutional filter size to 3x3, was previously 5x5 (I've seen most places put this at 4) 
   5. Reduced depths of conv layers to a consistent value of 128 in v2.0 for the discriminator slowed the convergence
   6. lowered dropout values (should be ideally kept around 0.3-0.6)
   
-In particular, 1 & 2 are really popular solutions cited in most places. 
+In particular, <b>1 & 2</b> are really popular solutions cited in most places. 
 My model seemed to work fine after I adjusted the different points above. 
 However, there are also additional things you could try that might help if you'e still having some issues. 
 
