@@ -42,11 +42,11 @@ In particular, <b>1 & 2</b> are really popular solutions cited in most places.
 My model seemed to work fine after I adjusted the different points above. 
 However, there are also additional things you could try that might help if you'e still having some issues. 
 
-What you could additionally try:
-  7. Flipping the labels!
-  8. Try weight initialization 
-  9. Don’t stop training early, <b>unless</b> discriminator loss approaches 0 fairly quickly 
-    - I’ve learnt that GANs take an excruciatingly long time to train and too stopping the training early might be disadvantageous 
+What you could additionally try: <br>
+  7. Flipping the labels!<br>
+  8. Try weight initialization <br>
+  9. Don’t stop training early, <b>unless</b> discriminator loss approaches 0 fairly quickly <br>
+    - I’ve learnt that GANs take an excruciatingly long time to train and too stopping the training early might be disadvantageous <br>
 
 Final architecture that worked for 28x28 images, following [2](https://arxiv.org/pdf/1511.06434.pdf): <br>
 ** differently sized images may require different parameter changes 
