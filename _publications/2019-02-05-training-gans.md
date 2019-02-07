@@ -24,7 +24,7 @@ The general architecture of a DCGAN looks like this:
 
 The main issues I faced after building the model infrastructure was that:
   1. Initial runs causes model to converge very quickly to loss = 0 
-  2. I noticed that my <b>discriminator loss<br> converges rapidly to zero thus preventing the generator from learning
+  2. I noticed that my <b>discriminator loss</b> converges rapidly to zero thus preventing the generator from learning
   3. Adversarial loss decreases to 0 almost immediately after initiation
 all possibly attributed to the instability of building a GAN/DCGAN. 
 ![](https://github.com/kmualim/kmualim.github.io/tree/master/images/gan-initialrun.png)
