@@ -24,4 +24,4 @@ Since the discovery of the LINCS Consortium, where ~1,000 carefully selected gen
 
 The application of GANs to gene expression inference is an incredibly fascinating experiment that seems predictably good at outperforming previous implementations of resolving this task - such as linear regression, k nearest neighbours and most recently deep neural networks. However, the use of DenseNet on data without any obvious or underlying spatial structure is perplexing and intriguing. A successful attempt to overcome this obstacle could allow its extension and generalization to other similar datasets. The lack of a given open source implementation of this model on gene expression hence serves as a bottleneck in advancing the progression of its applications. 
 
-(in progress) [Code for GAN Implementation on MNIST](https://github.com/kmualim/DCGAN-Keras-Implementation)
+(in progress) [Check out my initial work on DCGANs]()
