@@ -1,3 +1,11 @@
+---
+title: "Training Generative Adversarial Networks (GANs)"
+excerpt: "A brief introduction into GANs and training one"
+collection: publications
+date: 2019-02-05
+location: "Palo Alto, CA"
+---
+
 # What is a GAN? 
 A Generative Adversarial Network takes the idea of using a generator model to generate fake examples and 
 discriminator model that decides if image it receives is a fake. A classic analogy for a GAN takes the case of the police (discriminator) and the counterfeiter (generator). 
