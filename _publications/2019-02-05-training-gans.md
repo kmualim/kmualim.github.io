@@ -50,7 +50,7 @@ The main issues I faced after building the model infrastructure was that:
   1. I noticed that my <b>discriminator loss</b> converges rapidly to zero thus preventing the generator from learning
   2. Adversarial loss decreases to 0 almost immediately after initiation
 all possibly attributed to the instability of building a GAN/DCGAN. <br> 
-![](https://github.com/kmualim/kmualim.github.io/blob/master/images/gan-initialrun.png)
+![](/images/gan-initialrun.png)
   <i> Fig 1. Epoch v Loss </i> 
 
 ## Solutions
@@ -80,11 +80,11 @@ Final architecture that worked for 28x28 images, following [this paper](https://
 ** differently sized images may require different parameter changes 
 <br>
 Loss values were also consistently low: 
-![](https://github.com/kmualim/kmualim.github.io/blob/master/images/final-run.png) <br>
+![](/images/final-run.png) <br>
 
 The generated image obtained at epoch 0 was incredibly different from the generated image obtained at epoch 4000: <br>
-![](https://github.com/kmualim/kmualim.github.io/blob/master/images/origin-img.png) <br> 
-![](https://github.com/kmualim/kmualim.github.io/blob/master/images/final-img.png) <br>
+![](/images/origin-img.png) <br> 
+![](/images/final-img.png) <br>
 <br>
 However, the image resolution/the generation of images could still be vastly improved. The numbers are discernible but still blurry and could be more concise. Any tips and comments are welcomed and do reach out, perhaps even running the model for more epochs might make the images better. (People have noted that their implementations have often needed to run for more epochs than predicted.)
 
