@@ -19,7 +19,7 @@ TL;DR The generator produces new images and passes it to the discriminator model
 ## How do GANs ctually work? 
 A classic analogy for a GAN takes the case of the police (discriminator) and the counterfeiter (generator). The counterfeiter (generator) creates new images and passes it to the police (discriminator), where the generated images gets evaluated for its authenticity. The police (discriminator) then provides feedback by comparing generated images with real images. The police (discriminator) strives to identify the images coming from the counterfeiter (generator) as fake whilst the counterfeiter (generator) seeks to generate images authentic enough to pass as real. 
 
-![](https://github.com/kmualim/kmualim.github.io/blob/master/images/gan_schema.png) <br>
+![](/images/gan_schema.png) <br>
 Credit: O'Reilly <br>
 1. The generator initially takes in random noise and returns an image/text
 2. This generated image is passed to the discriminator with a collection of real images from the dataset
