@@ -55,10 +55,10 @@ all possibly attributed to the instability of building a GAN/DCGAN. <br>
 
 ## Solutions
 What I tried and what worked: <br>
-  <b>1</b>. Addition of noise to both input and fake images <br>
-  <b>2</b>. Helped not to pre-train the discriminator <br>
-  <b>3</b>. When training either discriminator/generator, hold the generator/discriminator values constant <br>
-  4. Tried changing convolutional layers located in the generator <br>
+  <b>1</b>. Try implementing weight initialization <br>
+  <b>2</b>. Addition of noise to both input and fake images <br>
+  <b>3</b>. Helped not to pre-train the discriminator <br>
+  <b>4</b>. When training either discriminator/generator, hold the generator/discriminator values constant <br>
   5. Changed convolutional filter size to 3x3, was previously 5x5 (I've seen most places put this at 4) <br>
   6. Reduced depths of conv layers to a consistent value of 128 for the discriminator improved the model <br>
   7. added and lowered dropout values (should be ideally kept around 0.3-0.6)
@@ -72,8 +72,7 @@ However, there are also additional things you could try that might help if you'e
 
 What you could additionally try: <br>
   8. Flipping the labels!<br>
-  9. Try implementing weight initialization <br>
-  10. Don’t stop training early, <b>unless</b> discriminator loss approaches 0 fairly quickly <br>
+  9. Don’t stop training early, <b>unless</b> discriminator loss approaches 0 fairly quickly <br>
     - I’ve learnt that GANs take an excruciatingly long time to train and too stopping the training early might be disadvantageous <br>
 
 ## Results
