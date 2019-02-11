@@ -89,13 +89,13 @@ The generated image obtained at epoch 0 was incredibly different from the genera
 However, the image resolution/the generation of images could still be vastly improved. The numbers are discernible but still blurry and could be more concise. Any tips and comments are welcomed and do reach out, perhaps even running the model for more epochs might make the images better. (People have noted that their implementations have often needed to run for more epochs than predicted.)
 
 ## Conclusions
-Summary of architectural guidelines for stable Deep Convolutional GANs: 
-• Replace any pooling layers with strided convolutions (discriminator) and fractional-strided
-convolutions (generator).
-• Use batchnorm in both the generator and the discriminator.
-• Remove fully connected hidden layers for deeper architectures.
-• Use ReLU activation in generator for all layers except for the output, which uses Tanh.
-• Use LeakyReLU activation in the discriminator for all layers.
+Summary of architectural guidelines for stable Deep Convolutional GANs: <br>
+• Replace any pooling layers with strided convolutions (discriminator) and fractional-strided 
+convolutions (generator). <br>
+• Use batchnorm in both the generator and the discriminator. <br>
+• Remove fully connected hidden layers for deeper architectures. <br>
+• Use ReLU activation in generator for all layers except for the output, which uses Tanh. <br>
+• Use LeakyReLU activation in the discriminator for all layers. <br>
 
 The [original paper](https://arxiv.org/pdf/1511.06434.pdf) also gives a really good explanation as to how they attained the respective guidelines, it serves as a very interesting read and I would definitely recommend! 
 
