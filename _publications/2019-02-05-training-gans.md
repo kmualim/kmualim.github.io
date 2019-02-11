@@ -58,10 +58,10 @@ What I tried and what worked: <br>
   1*. Addition of noise to both input and fake images <br>
   2*. Helped not to pre-train the discriminator <br>
   3*. When training either discriminator/generator, hold the generator/discriminator values constant <br>
-  3. Tried changing convolutional layers located in the generator <br>
-  4. Changed convolutional filter size to 3x3, was previously 5x5 (I've seen most places put this at 4) <br>
-  5. Reduced depths of conv layers to a consistent value of 128 for the discriminator improved the model <br>
-  6. added and lowered dropout values (should be ideally kept around 0.3-0.6)
+  4. Tried changing convolutional layers located in the generator <br>
+  5. Changed convolutional filter size to 3x3, was previously 5x5 (I've seen most places put this at 4) <br>
+  6. Reduced depths of conv layers to a consistent value of 128 for the discriminator improved the model <br>
+  7. added and lowered dropout values (should be ideally kept around 0.3-0.6)
   
 In particular, <b>1, 2 and 3</b> are really popular solutions cited in most places. 
 
@@ -71,9 +71,9 @@ My model seemed to work fine after I adjusted the different points above.
 However, there are also additional things you could try that might help if you'e still having some issues. 
 
 What you could additionally try: <br>
-  7. Flipping the labels!<br>
+  8. Flipping the labels!<br>
   8. Try implementing weight initialization <br>
-  9. Don’t stop training early, <b>unless</b> discriminator loss approaches 0 fairly quickly <br>
+  10. Don’t stop training early, <b>unless</b> discriminator loss approaches 0 fairly quickly <br>
     - I’ve learnt that GANs take an excruciatingly long time to train and too stopping the training early might be disadvantageous <br>
 
 ## Results
