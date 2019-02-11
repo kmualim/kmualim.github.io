@@ -7,7 +7,7 @@ location: "Palo Alto, CA"
 ---
 
 # What is a GAN? 
-A Generative Adversarial Network was introduced in this [paper](https://arxiv.org/abs/1406.2661) by Ian Goodfellow and other researchers located at the Universite de Montreal. A Generative Adversarial Network falls into the cateogry of [generative models](https://en.wikipedia.org/wiki/Generative_model), that have the ability to produce new content. 
+Generative Adversarial Networks (GANs) were introduced in this [paper](https://arxiv.org/abs/1406.2661) by Ian Goodfellow and other researchers located at the Universite de Montreal. A Generative Adversarial Network falls into the cateogry of [generative models](https://en.wikipedia.org/wiki/Generative_model), that have the ability to produce new content. 
 A particular GAN, utilizes both generative and discriminative models, the [two distinguished classes](http://papers.nips.cc/paper/2020-on-discriminative-vs-generative-classifiers-a-comparison-of-logistic-regression-and-naive-bayes.pdf) defined in [statistical classification](https://en.wikipedia.org/wiki/Generative_model).
 A clear discriminating definition between the two is that discriminative models <b>learn boundaries</b> between classes 
 while generative models <b>models the distrirbution</b> of individual classes. <br> 
