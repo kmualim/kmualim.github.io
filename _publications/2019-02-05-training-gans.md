@@ -112,4 +112,4 @@ I am, of course, really oversimplifying what GANs are and I do recommend reading
 3. [Awesome gan applications](https://github.com/nashory/gans-awesome-applications). 
 4. [Gan Pitfalls and Solutions](https://medium.com/@utk.is.here/keep-calm-and-train-a-gan-pitfalls-and-tips-on-training-generative-adversarial-networks-edd529764aa)
 5. [GAN](https://skymind.ai/wiki/generative-adversarial-network-gan) 
-6. https://github.com/soumith/ganhacks#13-add-noise-to-inputs-decay-over-time 
+6. [GanHacks](https://github.com/soumith/ganhacks#13-add-noise-to-inputs-decay-over-time)
