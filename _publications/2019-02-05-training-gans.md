@@ -77,7 +77,7 @@ What you could additionally try: <br>
     - I’ve learnt that GANs take an excruciatingly long time to train and too stopping the training early might be disadvantageous <br>
 
 ## Results
-Final architecture that worked for 28x28 images, following [2](https://arxiv.org/pdf/1511.06434.pdf): <br>
+Final architecture that worked for 28x28 images, following [this paper](https://arxiv.org/pdf/1511.06434.pdf): <br>
 ** differently sized images may require different parameter changes 
 <br>
 Loss values were also consistently low: 
@@ -90,7 +90,7 @@ The generated image obtained at epoch 0 was incredibly different from the genera
 However, the image resolution/the generation of images could still be vastly improved. The numbers are discernible but still blurry and could be more concise. Any tips and comments are welcomed and do reach out, perhaps even running the model for more epochs might make the images better. (People have noted that their implementations have often needed to run for more epochs than predicted.)
 
 ## Conclusions
-Summary of architectural guidelines for stable Deep Convolutional GANs, as illustrated in [2](https://arxiv.org/pdf/1511.06434.pdf): 
+Summary of architectural guidelines for stable Deep Convolutional GANs: 
 • Replace any pooling layers with strided convolutions (discriminator) and fractional-strided
 convolutions (generator).
 • Use batchnorm in both the generator and the discriminator.
