@@ -26,6 +26,11 @@ Credit: O'Reilly <br>
 3. The discriminator then takes in the images and generates a probability to determine if the generated image is real (1) or fake (0) , generating a feedback loop. 
 
 The generator in turn learns to create more believable data to fool the discriminator while the discriminator learns to better discriminate between the fake and real samples. 
+The <b> optimal </b> generator would be fed a z-dimensional vector (as seen in code), where there may be dimensions that represent specific features that offer a useful representation automatically. The generator seeks to find the optimal true probability distribution that best represents the object (in the case of MNIST, the numbers), at each iteration minimizing the error distance between the generated and the true probability distribution as illustrated below. 
+![](/images/distribution.jpeg)
+Credits: Rocca.
+
+For distribution A illustrated in the above figure, given the distance between the two distributions, the discriminator would easily tell apart/classify most of the points presented to it. However, the same cannot be said for C, where the distributions are relatively close in all the points. 
 
 [Joseph Rocca](https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29) wrote an incredible blog post into understanding the step-by-step mechanics of GANs where he illustrates: 
 - how the generator seeks to rephrase the problem of generating a new image of "dog" into the problem of generating a random vector in the N dimensional vector space that follows the "dog probability distribution"
@@ -38,7 +43,6 @@ A DCGAN focuses on deep convolutional networks in places of fully-connected netw
 ![](https://github.com/kmualim/DCGAN-Keras-Implementation/blob/master/files/dcgan-image.png) </br> 
 These convolutional nets find areas of correlation within images and looks for spatial correlations, enabling it to be more fitting for image/video data.
 In addition, DCGANs also experience higher stability during training than GANs, giving you possibly an easier time at building a GAN. 
-
 
 I built a DCGAN for the first time as an interest project and met with some challenges during training. While google serves as a wonderful resource for helping you solve problems associated to GANs, 
 I wasn't able to find a comprehensive compilation of the respective solutions for some problems in building a GAN.Thus, this is my attempt at illustrating my entire journey & perhaps how I've overcame my obstacles might help you too! 
