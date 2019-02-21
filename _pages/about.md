@@ -20,6 +20,7 @@ Check out my [projects here](https://kmualim.github.io/publications/) & my [cv](
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+  * Open Source PyTorch Contribution : Implementated conditional GAN
 
 ## Experience
 * 2018-2019: Research Assistant @ McGill University <br>
