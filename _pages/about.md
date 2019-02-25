@@ -29,7 +29,7 @@ Check out my [projects here](https://kmualim.github.io/publications/) & my [cv](
   * Performed feature selection on known sequence alignments that allow for automatic adjustments of puzzle difficulty based on skill level 
 * 2016-2018: Research Assistant @ McGill University <br>
   <b> Supervisor: Professor Kalle Gehring </b>
-  * Initated novel project, resolved full crystal structure of CNNM Transmembrane protein
+  * Resolved N15 spectrum of linker protein involed in autophagy, Crystallized transmembrane domain of CNNM Transmembrane protein
 
 ## Education
 * B.S. in Biochemistry, C.S, McGill University, 2019 (expected)
