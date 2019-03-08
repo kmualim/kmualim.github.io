@@ -75,7 +75,43 @@ MLE calculates uncertainty in a given point estimate via evaluating variance, Ba
 
 # Probabilistic Supervised Learning
 
+## Logistic Regression 
+- log sigmoid function squashes output of lienar function into interval; value is interpreted as a probability
+- optimal weights are found via: minimizing negative log-likelihood using gradient descent 
 
+## Support Vector Machines (SVM) 
+- outputs class identities 
+- lends itself to the kernel trick; enables learning models that are nonlinear as a function of x & more computationally efficient than naively constructing 2 vectors 
+Gaussian kernel (a.k.a radial basis function) 
+- performs template matching; training example x associated with training label y becomes a template for class y
+- if x' is near x template according to euclidean distance, then the model puts large weights on corresponding y label. 
+
+## k-nearest neighbours 
+- returns the average of corresponding y values in training set based on k-nearest neighbours to X
+- does not learn features/patterns in the data 
+- non-parametric method 
+
+## Decision trees 
+- each node of decision tree is associated with a region in input space, with axis-aligned splits and constant outputs within each node 
+- decision boundary has to be axis-aligned 
+
+# Unsupervised Learning 
+- to put it simply, attempts to extract information from distribution that does not require human labor to annotate examples. 
+- the goal is to find a representation that preserves as much information about x while keeping the representation simpler 
+
+## Simplier representation 
+- lower-dimensional (compress as much information about x as possible) 
+- sparse (embed dataset into represeentation whose entries are mostly zeros; usually requires increeasing dimensionality of representation) 
+- independent (disentangle sources of variation underlying data distribution)
+
+# Principle Component Analysis (PCA) 
+- dimensionality reduction technique 
+- learns orthogonal, linear transformation 
+
+## k-means clustering 
+- divides training set into k different clusters of examples that are near each other 
+- k-dimensional one-hot code vector h where h(i)=1 if x belongs to cluster i
+- no single criterion that measures how well clustering of the data corresponds to real world 
 
 
 
