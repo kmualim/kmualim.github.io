@@ -18,4 +18,11 @@ MSE and MAE cost functions usually not desirable; output units produce small gra
 matrix for all inputs. 
 
 ## Sigmoid Units for Bernoulli Output Distributions 
-- 
+- unable to use linear units for Bernoulli because if values strayed from interval (0,1), value = 0 
+- too many zeros prevent the model from learning 
+- applying Sigmoid Units: uses linear layer to transform z = wTh+b and converts the value into a probability 
+log in cost function undoes the exp of the sigmoid and prevents saturation of the sigmoid unit. 
+- with large incorrect values, softplus tries to correct for this by returning the argument to its absolute value 
+- allows for quick correction of mistaken z via gradient-based learning 
+- train sigmoid units with maximum likelihood 
+
