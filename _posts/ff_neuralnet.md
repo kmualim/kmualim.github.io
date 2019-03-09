@@ -27,7 +27,12 @@ log in cost function undoes the exp of the sigmoid and prevents saturation of th
 - train sigmoid units with maximum likelihood 
 
 ## Softmax Units for Multinoulli Output Distribution 
-- 
+- used to represent a probability distribution over a discrete variable with n possible values; vector of n probabilities sum up to 1 
+- when maximizing log-likelihood, the equation constitutes 2 terms - first term shows that the input z always has a direct contribution to cost function whilst second term encourages all of z to be pushed down
+Second term: exp(zk) is insiginifcant for any zk that is noticeably less than maxjzj. 
+- max log-likelihood penalizes most active incorrect prediction 
+Also, if 
+
 
 
 
