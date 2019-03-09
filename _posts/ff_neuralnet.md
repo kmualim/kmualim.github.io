@@ -26,3 +26,18 @@ log in cost function undoes the exp of the sigmoid and prevents saturation of th
 - allows for quick correction of mistaken z via gradient-based learning 
 - train sigmoid units with maximum likelihood 
 
+## Softmax Units for Multinoulli Output Distribution 
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
