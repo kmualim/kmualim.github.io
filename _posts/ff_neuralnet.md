@@ -31,7 +31,37 @@ log in cost function undoes the exp of the sigmoid and prevents saturation of th
 - when maximizing log-likelihood, the equation constitutes 2 terms - first term shows that the input z always has a direct contribution to cost function whilst second term encourages all of z to be pushed down
 Second term: exp(zk) is insiginifcant for any zk that is noticeably less than maxjzj. 
 - max log-likelihood penalizes most active incorrect prediction 
-Also, if 
+- output values can saturate when differences between input values become extreme, driven by amount that arg deviate from max(z) 
+
+## Mixture Density Networks (pg 185) 
+- Neural network with Gaussian mixtures 
+- predict real values from conditional distribution p(y|x) that can have several different peaks in y space for same value of x. 
+- 1. mixture components - form multinouolli distribution over n different components associated with latent variable c; obtained by softmax over n-D vector to guarantee outputs are + and sum to 1
+- 2. means: indicate mean associateed with ith Gaussian component and are unconstrained; neg log-likelihood weighs example's contribution to loss for each component * P(component produced example) 
+- 3. covariances: - cov matrix for each component i. GD would automatically follow correect proceess if given correct specification ; GD of conditional Gaussian mixtures can be unrealiable tho
+    - due to divisions 
+- represents multiplee output modes + control variance of output
+
+## Selecting Hidden Units 
+- some hidden units are nondifferentiable at specific points. 
+- differentiability occurs only when both left and right derivatives are defined and equal to each other 
+
+1. ReLu : g(x) = max{0,z} 
+- derivatives through ReLu unit remains large whenever unit is active 
+- let bias = 0.1; allow ReLu to be initially active for most inputs in training and allow derivatives to pass through 
+- cannot learnr via gradient-based methods on examples for which activation is zero. 
+Maxout units generalize ReLu further, divide z into groups of k values and each maxout unit then outputs maximum element of one of these groups; learns piecewise linear function that responds to multiple directions in the input x space; learning the activation function. 
+- parametrized by k weight vectors instead of 1, usually requires more regularization 
+- each unit driven by multiple filters, maxout units have redundancy to prevent <b> catastrophic forgetting </b> 
+
+2. Logistic Sigmoid and Hyperbolic Tangent 
+- saturation of sigmoidal units make gradient based learning v difficult; requires appropriate cost function to undo saturation 
+- hyperbolic tangent activation function usually performs better than log sigmoid; resembles identity function more closely
+- training deep neural network with tanh functions resemebles training linear model 
+In cases where use of piecewise linear activation functions might not be suitable, sigmoidal units may be more appealing. 
+
+Other hidden units: radial basis function, softplus, hard tanh 
+
 
 
 
