@@ -73,6 +73,18 @@ MLE calculates uncertainty in a given point estimate via evaluating variance, Ba
 - chooses point of maximum posterior probability; utilizes prior distribution 
 - introduction of the prior distribution helps to lower variance 
 
+## Understanding the difference between MAP and MLE 
+- data and model parameters are inputs to the likelihood function 
+Likelihood function: 
+When given fixed value of model parameters, what is the probability of any particular data point/data set? 
+On the other hand, when data is kept fixed, what is the probability of any particular parameter setting? 
+MLE simple gives you the mode of the likelihood in scenario 2. 
+However, MLE frequently overfits the data, variance of parameter estimates is high causing the outcome of the parameter estimate to be sensitive to r.v in data. 
+In these cases, we implore adding regularization to MLE (aims to reduce variance by introducing bias into estimate). 
+In MAP, regularization is achieved by assuming that the parameters are drawn from a random process. This prior belief about parameters determine what this random process looks like. 
+When these prior beliefs are strong, the observed data has little impact on parameter estimates. However, when these prior beliefs are weak, thee outcome is more like standard MLE. 
+Thus, in the case for an infinite amount of data and an infinitely weak prior belief, MAP produces the same results as MLE. 
+
 # Probabilistic Supervised Learning
 
 ## Logistic Regression 
