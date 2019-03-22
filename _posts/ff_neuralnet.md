@@ -62,8 +62,19 @@ In cases where use of piecewise linear activation functions might not be suitabl
 
 Other hidden units: radial basis function, softplus, hard tanh 
 
+# General BackProp 
+- can be seen as a graph where each node is a node from the forward propogation graph. 
+- consists of dot product performed for each node between already computed gradient and partial derivatives of the same children nodes u(i)
+- compute gradient w.r.t each parent of node z in graph by multiplying current gradient by Jacobian of operation that poduced z; where the Jacobian matrix is the first order partial derivatives of a vector-valued function 
+While the forward prop maps parameters to a supervised loss (`y`, y), where `y` represents the predicted outcome of a function(x), back prop yields gradients on the activations of every layer (propagates backwards from output layer to the first hidden layer) 
 
+When # outputs larger than # inputs, use forward mode accumulation
+R/S between forward mode and backward mode = left-multiplying v.s right multiplying a sequence of matrices, depending on which end would reduce the computational complexity of the operations. 
+For eg, in a sequence of matrices ABCD, if A has fewer rows than D has columns, it becomes cheaper to run left-to-right corresponding to forward mode 
 
+## Computing Hessian matrices in DL 
+- via Krylov methods; which are simply a set of iterative techniques for performing various operations.
+- Krylov: compute product between Hessian matrix H and arbitrary vector v. 
 
 
 
