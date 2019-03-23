@@ -118,8 +118,35 @@ Gaussian kernel (a.k.a radial basis function)
 - independent (disentangle sources of variation underlying data distribution)
 
 # Principle Component Analysis (PCA) 
-- dimensionality reduction technique 
-- learns orthogonal, linear transformation 
+- dimensionality reduction technique for extracting relevant information from datasets
+- learns orthogonal, linear transformation and reduces a complex data set to a lower dimension to reveal any hidden, simplified structures that underlie it. 
+Assumption: re-expresses data as a linear combination of its basis vectors 
+Simply put, Let X be the original dataset, where each column is a single sample of our dataset and Y is a new representation of that dataset, where Y is related to X by a linear transformation P (PX=Y). 
+P is a matrix that essentially transforms X into Y. 
+With this key idea in mind, How then should we best re-express X? What is a good choice of basis P? 
+
+High signal-to-noise ratio, indicative of high precision measurement + (large variance ?)
+Redundancy lurks in our dataset, where certain measurements may have only required fewer than recorded variables. Given these two characteristics allows PCA to work. But how do we seek to find these characteristics in higher dimensions? 
+
+## Covariance matrices 
+Taking for example, two sets of measurements with zero means. 
+The covariance between A and B is a straight-forward generalization, as covariance measures degree of linear r/s between two variables. 
+- Large postive value indicates positively correlated data while a large negative value denotes negatively correlated data
+Absolute magnitude of covariance measures degree of redundancy
+- σAB = 0 if A,B is uncorrelated 
+- σAB^2 = σA^2 if A=B 
+Convert the set of measurements, (A, B .... etc) , into corresponding row vectors of a matrix X where each row of X corresponds to all measurements of a particular type and each column of X corresponds to a set of measurements from one particular trial. 
+Covariance matrix C(x) = (1/n)(X)(X^T)
+- diagonal terrms of C(x) are the variance of particular measurement types and the off-diagonal terms of C(x) are the covariance between measurement types 
+Cx captures covariance between all possible pairs of measurements, with values reflecting noise and redundancy in measurements. <br> 
+
+## Diagnalizing the Covariance Matrix 
+PCA seeks the simpliest method and assumes that all basis vectors are orthonormal. 
+1. Select normalized direction in m-dimensionoal space along which variance in X maximized -> p1 
+2. Find another direction where variance is maximized (restricting search to all directions orthogonal to previous selected directions) -> pi 
+3. Repeat until all m vectors selected 
+Resulting ordered set of p's are the <b>principal components</b>. 
+PCA can be solved using eigenvector decomposition  
 
 ## k-means clustering 
 - divides training set into k different clusters of examples that are near each other 
