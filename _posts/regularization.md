@@ -61,4 +61,9 @@ Recommended: using constraints combined with high learning rate to enable rapid 
 - constrain norm of each column of weight matrix of a nn layer instead of the Frobenius norm of entire weight matrix
 - similar to using separate KKT multiplier for weights of each hidden unit, each KKT dynamically updated separately to make each hidden unit obey constraint. 
 
-# Regularization & Under-Constrained Problems 
+Linear porblems have closed form solutions when matrix is invertible; we usually seek to make X^TX + aI invertible instead. 
+Most forms of regularization will guarantee convergence of iterative methods applied to underdetermined problems.
+*Moore-Penrose pseudoinverse* : stabilizing underdetermined problems using regularization
+
+# Data Augmentation 
+
