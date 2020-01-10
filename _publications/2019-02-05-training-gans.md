@@ -16,7 +16,7 @@ Some standard examples of the two could include as generative classifiers: naive
 
 TL;DR The generator produces new images and passes it to the discriminator model that decides if image it receives is a fake. 
 
-## How do GANs ctually work? 
+## How do GANs actually work? 
 A classic analogy for a GAN takes the case of the police (discriminator) and the counterfeiter (generator). The counterfeiter (generator) creates new images and passes it to the police (discriminator), where the generated images gets evaluated for its authenticity. The police (discriminator) then provides feedback by comparing generated images with real images. The police (discriminator) strives to identify the images coming from the counterfeiter (generator) as fake whilst the counterfeiter (generator) seeks to generate images authentic enough to pass as real. 
 
 ![](/images/gan_schema.png) <br>
