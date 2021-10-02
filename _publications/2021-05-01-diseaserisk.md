@@ -23,7 +23,7 @@ Utilizing GWAS variants experimentally validated to link to inflammatory bowel d
 how enriched causal variants are in predicted enhancers. Using this methodology, we found that causal variants are enriched in predicted 
 enhancers by more than 20-fold in particular cell types such as dendritic cells (Fig1).
 
-![alt text](/images/enrichment.png)
+![alt text](/images/enrichment.png) <br>
 <b> Fig 1. ABC maps connect fine-mapped variants to enhancers, genes and
 cell types. a, </b> Enrichment of fine-mapped IBD variants (PIP ≥ 10%) in ABC
 enhancers (left) and all other accessible regions (right) in each of the 131
@@ -34,7 +34,7 @@ less than or equal to quartiles ± 1.5× the interquartile range. <br>
 These variant-to-function maps reveal an enhancer that contains an IBD risk variant and that regulates the expression of PPIF to alter 
 the membrane potential of mitochondria in macrophages (Fig2). 
 
-![alt text](/images/ppif.png)
+![alt text](/images/ppif.png) <br>
 <b> Fig 2. An IBD risk variant (rs1250566) overlaps with an enhancer that is predicted to
 regulate PPIF. </b> Signal tracks represent chromatin accessibility (from ATAC-seq
 (assay for transposase-accessible chromatin using sequencing) or DNase-seq
