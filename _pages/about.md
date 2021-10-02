@@ -17,6 +17,7 @@ Check out my [projects](https://kmualim.github.io/publications/) or my [cv](/fil
 ## Education
 **McGill University**     Montreal, Canada
   * B.S in Biochemistry <br>
+
 **International Culinary Centre**     New York, NY 
 
 
