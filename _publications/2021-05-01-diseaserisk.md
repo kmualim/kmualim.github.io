@@ -40,11 +40,9 @@ regulate PPIF. </b> Signal tracks represent chromatin accessibility (from ATAC-s
 (assay for transposase-accessible chromatin using sequencing) or DNase-seq
 (DNase I hypersensitive site sequencing)). Grey bar, enhancer containing
 rs1250566; dashed lines, TSSs; red arrows for dendritic cells, monocytes, CD4+
-and CD8+ <br>
-
- T cells and B cells, ABC-Max predictions; red arrows for THP1, Jurkat,
+and CD8+ T cells and B cells, ABC-Max predictions; red arrows for THP1, Jurkat,
 BJAB and GM12878 cells, CRISPRi leads to a significant decrease in PPIF
-expression.
+expression. <br>
 
 Our study reveals principles of genome regulation, identifies genes that affect IBD and provides a resource and generalizable strategy to 
 connect risk variants of common diseases to their molecular and cellular functions.
