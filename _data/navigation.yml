@@ -7,8 +7,8 @@ main:
   # - title: "Awards & Honors"
   #   url: /awards/        
     
-  - title: "Food Science!"
-    url: /portfolio/
+  #- title: "Food Science!"
+  #  url: /portfolio/
     
   #- title: "Writings"
   #  url: /posts/
@@ -21,8 +21,8 @@ main:
   - title: "CV"
     url: /files/cv.pdf
     
-  - title: "Contact"
-    url: /contact/  
+  #- title: "Contact"
+  #  url: /contact/  
     
   # - title: "Guide"
     # url: /markdown/
