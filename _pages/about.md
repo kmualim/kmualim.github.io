@@ -15,9 +15,9 @@ I currently work on a range of problems in genetics and biotechnology. While I e
 Check out my [projects](https://kmualim.github.io/publications/) or my [cv](/files/cv.pdf). 
 
 ## Education
-* McGill University | Montreal, Canada
+* McGill University   Montreal, Canada
   * B.S in Biochemistry
-* Diploma in Culinary Arts, International Culinary Centre | New York, NY 
+* Diploma in Culinary Arts, International Culinary Centre   New York, NY 
 
 
 
