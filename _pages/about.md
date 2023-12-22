@@ -8,19 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I'm currently a researcher in the [Department of Genetics](https://med.stanford.edu/genetics.html) at Stanford, where I work with Professor [Anshul Kundaje](https://sites.google.com/site/anshulkundaje/) to build computational models to study the regulatory code. More recently, I've been building and adapting computational tools to study how plants adapt to changing climates with Professor [Moisés Expósito-Alonso](https://www.moisesexpositoalonso.org/) at the [Carnegie Institute of Science](https://dpb.carnegiescience.edu/). 
+I'm currently a PhD Student with Dr. [Moisés Expósito-Alonso](https://www.moisesexpositoalonso.org/) building and adapting computational tools to study how plants adapt to changing climates at the [University of California, Berkeley](https://ib.berkeley.edu/). Previously, I was a researcher in the [Department of Genetics](https://med.stanford.edu/genetics.html) at Stanford, where I work with Dr. [Anshul Kundaje](https://sites.google.com/site/anshulkundaje/) and Dr. [Jesse Engreitz](https://www.engreitzlab.org/) to build computational models to study the regulatory code. 
 
-I work on a range of problems in genetics and biotechnology. I've built [computational tools](http://kmualim.github.io/publications/2020-05-01-abc) to understanding the non-coding regulatory genome, implemented solutions to advance [disease risk](http://kmualim.github.io/publications/2021-05-01-diseaserisk) and thought up [analytical solutions to estimating population divergence](http://kmualim.github.io/publications/2021-05-01-popgen). While I enjoy building computational models and scientific explorations, I also love the outdoors, meeting new people and experimenting with recipes!
+I work on a range of problems in genetics and biotechnology. I've built [computational tools](http://kmualim.github.io/publications/2020-05-01-abc) to understanding the non-coding regulatory genome, implemented solutions to advance [disease risk](http://kmualim.github.io/publications/2021-05-01-diseaserisk), built [compendiums of enhancer-gene linking resources](https://www.biorxiv.org/content/10.1101/2023.11.09.563812v1) and thought up [analytical solutions to estimating population divergence](http://kmualim.github.io/publications/2021-05-01-popgen). 
 
-I also spend my time community organizing with the [Sunrise Movement](https://www.sunrisemovement.org/green-new-deal/) and engage in different
-[projects](https://kmualim.github.io/publications/).
+I love being outdoors - camping 🏕️, backpacking 🌲, you name it! I also spend my time community organizing with the [Sunrise Movement](https://www.sunrisemovement.org/green-new-deal/) and engage in different
+[projects](https://kmualim.github.io/publications/). More recently, I've been spending my time working on a [conservation documentary focussed on highlighting inclusive voices to create locally-adapted solutions](https://ethicsinsociety.stanford.edu/tech-ethics/ethics-society-and-technology-hub/2022-collaborative-research-projects).
 
-Also, if you're keen on reading, check out my papers!
 
-## Education
-**McGill University**     Montreal, Canada
-  * B.S in Biochemistry <br>
-**International Culinary Centre**     New York, NY 
 
 
 
