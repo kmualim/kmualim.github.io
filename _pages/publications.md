@@ -4,6 +4,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+<link rel="stylesheet" type="text/css" href="styles.css">
+
 <div style="width: 300px; border: 1px solid #ddd; padding: 10px; text-align: center;">
     <img src="/images/genetic_diversity.png" alt="Building a genetic diversity predictive framework for conservation policy" style="width: 100%; height: auto; max-height: 200px;">
     <h3><a href="http://kmualim.github.io/publications/2020-05-01-abc">Predicting genetic diversity trajectories in the Anthropocene</a></h3>
@@ -85,5 +87,4 @@ Overall, our research provides new insights into genome regulation and disease m
     <p style="font-family: Arial, sans-serif; color: #555;">Utilizing CNNs in image recognition.</p>
   </div>
 
-</div>
 
