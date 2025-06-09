@@ -13,8 +13,8 @@ main:
   #- title: "Writings"
   #  url: /posts/
   
-  - title: "Writings"
-    url: /talks/
+  # - title: "Writings"
+  #  url: /talks/
   # - title: "Writings"
   #   url: /teaching/
   
