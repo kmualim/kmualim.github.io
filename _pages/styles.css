@@ -22,3 +22,11 @@ h2, h3 {
 h3 {
     color: #007BFF; /* Optional: Change color for the title */
 }
+
+p {
+    font-family: Arial, sans-serif;  /* Set the font family */
+    color: #555;  /* Set the text color to a shade of gray */
+    font-size: 16px;  /* Optional: Set the font size */
+    line-height: 1.5;  /* Optional: Set the line height for better readability */
+    margin-bottom: 15px;  /* Optional: Add space below each paragraph */
+}
