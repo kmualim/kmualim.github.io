@@ -1,0 +1,24 @@
+/* styles.css */
+
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.project-image {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.text-content {
+    flex: 1;
+    max-width: calc(100% - 320px);
+}
+
+h2, h3 {
+    margin-top: 0;
+}
+
+h3 {
+    color: #007BFF; /* Optional: Change color for the title */
+}
