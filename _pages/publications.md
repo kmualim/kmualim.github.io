@@ -6,10 +6,12 @@ author_profile: true
 
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-<div style="width: 300px; border: 1px solid #ddd; padding: 10px; text-align: center;">
-    <img src="/images/genetic_diversity.png" alt="Building a genetic diversity predictive framework for conservation policy" style="width: 100%; height: auto; max-height: 200px;">
-    <h3><a href="http://kmualim.github.io/publications/2020-05-01-abc">Predicting genetic diversity trajectories in the Anthropocene</a></h3>
+<div class="content"> 
+    <img src="/images/genetic_diversity.png" alt="Building a genetic diversity predictive framework for conservation policy" class="project-image">
+    <div class="text-content">
+    <h2><a href="http://kmualim.github.io/publications/2020-05-01-abc">Predicting genetic diversity trajectories in the Anthropocene</a></h3>
     <p>Genetic diversity is crucial for species' ability to adapt and has been targeted for protection in the UN's Global Biodiversity Framework. However, predicting genetic diversity loss is challenging. Using genetic data from 18 species, we found that genetic diversity declines slowly after habitat loss but continues for decades even if habitats are protected. Our model, combined with habitat data and conservation indicators, projects significant genetic diversity losses in 13,808 species, with short-term losses of 13-22% and long-term losses of 42-48%. These findings suggest that protecting current habitats alone is not enough to maintain genetic health, emphasizing the need for ongoing genetic monitoring and a new predictive framework for global genetic biodiversity</p>
+    </div>
   </div>
 
 <div style="width: 300px; border: 1px solid #ddd; padding: 10px; text-align: center;">
