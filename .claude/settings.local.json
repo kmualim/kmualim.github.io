@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:noahlcowan.com)",
+      "Bash(bundle exec *)",
+      "Bash(gem list *)"
+    ]
+  }
+}

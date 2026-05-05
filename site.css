@@ -1,0 +1,352 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #1a1a1a;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #2563a8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ── Navigation ── */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.nav-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.nav-name:hover {
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  font-size: 0.9rem;
+  color: #555;
+  font-weight: 400;
+  transition: color 0.15s;
+}
+
+.nav-links a:hover {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+/* ── Main content ── */
+
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 3rem 2rem 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+/* ── Intro ── */
+
+.intro {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+.intro-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  flex-shrink: 0;
+}
+
+.intro-text h1 {
+  font-size: 1.85rem;
+  font-weight: 600;
+  margin: 0 0 0.2rem;
+  line-height: 1.2;
+}
+
+.position {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0 0 1.1rem;
+}
+
+.intro-text p {
+  color: #333;
+  margin: 0 0 0.85rem;
+  font-size: 0.97rem;
+}
+
+.contact-links {
+  display: flex;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.3rem 0.85rem;
+  border: 1.5px solid #2563a8;
+  border-radius: 5px;
+  color: #2563a8;
+  transition: background 0.15s, color 0.15s;
+}
+
+.contact-links a:hover {
+  background: #2563a8;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ── Section headings ── */
+
+h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #888;
+  margin: 0 0 1.1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ebebeb;
+}
+
+section p {
+  color: #333;
+  font-size: 0.97rem;
+  margin: 0 0 0.85rem;
+}
+
+section ul {
+  padding-left: 1.2rem;
+  color: #333;
+  font-size: 0.97rem;
+}
+
+section ul li {
+  margin-bottom: 0.45rem;
+}
+
+/* ── News list ── */
+
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-list li {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 0.95rem;
+  color: #333;
+  align-items: baseline;
+}
+
+.news-list li:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  flex-shrink: 0;
+  width: 2.8rem;
+  font-weight: 500;
+  color: #999;
+  font-size: 0.88rem;
+}
+
+/* ── Research page ── */
+
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pub-item {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.pub-item img {
+  width: 160px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.pub-body h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+  line-height: 1.4;
+}
+
+.pub-body h3 a {
+  color: #1a1a1a;
+}
+
+.pub-body h3 a:hover {
+  color: #2563a8;
+  text-decoration: none;
+}
+
+.pub-body p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+  line-height: 1.65;
+}
+
+.pub-section-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.mini-pub-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25rem;
+  padding: 0;
+  list-style: none;
+}
+
+.mini-pub-list li {
+  border: 1px solid #ebebeb;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.mini-pub-list img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+
+.mini-pub-list .mini-body {
+  padding: 0.65rem 0.75rem;
+}
+
+.mini-pub-list h4 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+  line-height: 1.35;
+}
+
+.mini-pub-list h4 a {
+  color: #1a1a1a;
+}
+
+.mini-pub-list h4 a:hover {
+  color: #2563a8;
+  text-decoration: none;
+}
+
+.mini-pub-list p {
+  font-size: 0.8rem;
+  color: #777;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ── Footer ── */
+
+footer {
+  border-top: 1px solid #ebebeb;
+  padding: 1.5rem 2rem;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #999;
+}
+
+footer a {
+  color: #999;
+}
+
+footer a:hover {
+  color: #555;
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 620px) {
+  nav {
+    padding: 1rem 1.25rem;
+  }
+
+  .nav-links {
+    gap: 1.25rem;
+  }
+
+  main {
+    padding: 2rem 1.25rem;
+  }
+
+  .intro {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .intro-photo img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .pub-item {
+    flex-direction: column;
+  }
+
+  .pub-item img {
+    width: 100%;
+    height: 160px;
+  }
+}
