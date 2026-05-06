@@ -35,6 +35,22 @@ layout: raw
 
         <li class="project-item">
           <div class="project-header">
+            <span class="project-title">Wonderfest Science Envoy</span>
+            <span class="project-role">2025 Science Envoy · Wonderfest Bay Area</span>
+          </div>
+          <p>
+            Selected as a 2025 Wonderfest Science Envoy, a program recognizing science communicators
+            dedicated to making research accessible to Bay Area communities. Kristy's envoy work spans
+            her research on plant climate adaptation, global genetic diversity loss, and community-led
+            initiatives building climate resilience.
+          </p>
+          <div class="project-links">
+            <a href="https://wonderfest.org/kristy-mualim/" target="_blank">Wonderfest profile</a>
+          </div>
+        </li>
+
+        <li class="project-item">
+          <div class="project-header">
             <span class="project-title">Bay Area Urban Heat Island Mapping Campaign</span>
             <span class="project-role">Lead Organizer</span>
           </div>
