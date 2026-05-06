@@ -21,6 +21,7 @@ layout: raw
     <div class="nav-links">
       <a href="/">About</a>
       <a href="/publications/">Research</a>
+      <a href="/projects/">Projects</a>
       <a href="/files/cv.pdf" target="_blank">CV</a>
     </div>
   </nav>
