@@ -13,7 +13,9 @@
       "WebFetch(domain:haas.stanford.edu)",
       "WebFetch(domain:www.paloalto.gov)",
       "WebFetch(domain:www.ktvu.com)",
-      "WebFetch(domain:wonderfest.org)"
+      "WebFetch(domain:wonderfest.org)",
+      "WebFetch(domain:gpoesia.com)",
+      "WebFetch(domain:scholar.google.com)"
     ]
   }
 }
