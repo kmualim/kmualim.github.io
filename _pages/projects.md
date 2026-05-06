@@ -137,7 +137,7 @@ layout: raw
   </main>
 
   <footer>
-    <p>Kristy Mualim &middot; UC Berkeley &middot; <a href="mailto:kmualim@stanford.edu">kmualim@stanford.edu</a></p>
+    <p>Kristy Mualim &middot; Stanford University &middot; <a href="mailto:kmualim@stanford.edu">kmualim@stanford.edu</a></p>
   </footer>
 
 </body>
