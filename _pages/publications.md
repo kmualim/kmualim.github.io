@@ -117,6 +117,7 @@ layout: raw
                 <a href="https://www.biorxiv.org/content/10.1101/2023.11.09.563812v1" target="_blank">[Preprint]</a>
               </span>
             </div>
+            <div class="paper-award">🏆 ASHG 2023 Trainee Research Excellence Award</div>
           </li>
 
           <li class="paper-entry">

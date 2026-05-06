@@ -259,6 +259,18 @@ section ul li {
   text-decoration: underline;
 }
 
+.paper-award {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #92610a;
+  background: #fdf3dc;
+  border: 1px solid #f0d890;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  margin-top: 0.4rem;
+}
+
 /* ── Footer ── */
 
 footer {
