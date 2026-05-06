@@ -104,12 +104,12 @@ layout: raw
 
         <li class="project-item">
           <div class="project-header">
-            <span class="project-title">Renewable Energy Leadership Program (RELP)</span>
+            <span class="project-title">Rising Environmental Leaders Program (RELP)</span>
             <span class="project-role">Cohort Member · Stanford Woods Institute</span>
           </div>
           <p>
             Part of the RELP cohort at the Stanford Woods Institute for the Environment — a program
-            training the next generation of leaders in renewable energy policy, science, and community engagement.
+            training the next generation of leaders in environmental policy, science, and community engagement.
           </p>
           <div class="project-links">
             <a href="https://woods.stanford.edu/people/relp-cohorts" target="_blank">RELP cohorts</a>
