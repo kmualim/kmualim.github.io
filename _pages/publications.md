@@ -42,6 +42,7 @@ layout: raw
                 <a href="https://scholar.google.com/citations?user=0g59Rh8AAAAJ" target="_blank">[Scholar]</a>
               </span>
             </div>
+            <div class="paper-award">GEOBON Biodiversity Conference Best Talk</div>
           </li>
 
         </ul>
@@ -117,7 +118,7 @@ layout: raw
                 <a href="https://www.biorxiv.org/content/10.1101/2023.11.09.563812v1" target="_blank">[Preprint]</a>
               </span>
             </div>
-            <div class="paper-award">🏆 ASHG 2023 Trainee Research Excellence Award</div>
+            <div class="paper-award">ASHG 2023 Trainee Research Excellence Award</div>
           </li>
 
           <li class="paper-entry">
