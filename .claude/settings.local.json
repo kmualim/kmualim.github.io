@@ -3,7 +3,17 @@
     "allow": [
       "WebFetch(domain:noahlcowan.com)",
       "Bash(bundle exec *)",
-      "Bash(gem list *)"
+      "Bash(gem list *)",
+      "Bash(git *)",
+      "WebFetch(domain:kmualim.github.io)",
+      "Bash(curl -s https://kmualim.github.io/)",
+      "WebFetch(domain:vickyzchan.com)",
+      "WebFetch(domain:ethicsinsociety.stanford.edu)",
+      "WebFetch(domain:woods.stanford.edu)",
+      "WebFetch(domain:haas.stanford.edu)",
+      "WebFetch(domain:www.paloalto.gov)",
+      "WebFetch(domain:www.ktvu.com)",
+      "WebFetch(domain:wonderfest.org)"
     ]
   }
 }
